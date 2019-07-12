@@ -1,0 +1,60 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: url("assets/signpic.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: content;
+}
+h1 {
+  font-family: Merriweather;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  padding: 25px;
+  font-family: Helvetica;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-self: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  margin: 30px 600px 100px 600px;
+  padding: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+.add {
+  font-size:30px;
+  display: flex;
+  color: white;
+  align-self: center;
+}
+@media screen and (max-width: 850px) {
+/* body {
+  background-color: lime;
+} */
+body {
+  background-size: auto;
+}
+h1 {
+  font-size: 70px;
+}
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  body {
+    background-size: auto;
+  }
+}
